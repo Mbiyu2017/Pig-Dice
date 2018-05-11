@@ -1,7 +1,7 @@
 //business logic
 var randomNumber= function(){
 
-  return Math.floor(Math.random()*6) +1;
+  return Math.floor(Math.random()*6)+1;
 }
 
 
@@ -19,8 +19,9 @@ var randomNumber= function(){
 
 //UI logic
 $(document).ready(function(){
-  $("#roll-dice").click(function(){
-var random = randomNumber();
-    $("#score").text(random);
+  $(".roll-dice").click(function(){
+    var random = randomNumber();
+    $(".score").text(random);
+    $(".player-score").text(random);
   });
 });

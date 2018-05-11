@@ -1,6 +1,9 @@
 .panel{
   background-color:#E3E2E2;
 }
-#score{
+.score{
   font-size: 45px;
+}
+.player-score{
+  font-size: 55px;
 }

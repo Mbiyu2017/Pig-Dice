@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>
     <script src="js/jquery.js"></script>
-    <script src="js/styles.css"></script>
+    <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-  </title>
+  <title>Pig Dice</title>
 </head>
 <body>
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h1><strong>THE PIG DICE GAME</strong></h1>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <!-- contain player 1 -->
+        <div class="well">
+          <h3><strong>Player 1</strong></h3>
+          <button class="btn btn-primary" id="roll-dice">Roll my Dice</button>
+          <button class="btn btn-primary" id="hold-score">Hold my score</button>
+          <span class="btn btn-success" id="score"></span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- contain player 2 -->
+        <div class="well">
+          <h3><strong>Player 2</strong></h3>
+          <button class="btn btn-primary" id="roll-dice">Roll my Dice</button>
+          <button class="btn btn-primary" id="hold-score">Hold my score</button>
+          <span class="btn btn-success" id="score"></span>
+        </div>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-4">
+          <!-- contain score for player 1 -->
+          <div class="panel">
+            <h4>Player 1 score</h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- contain dice -->
+        </div>
+        <div class="col-md-4">
+          <!-- contain score for player 2 -->
+          <div class="panel">
+            <h4>Player 2 score</h4>
+          </div>
+        </div>
 
+      </div>
 
-
-
+  </div>
 </body>
-
 </html>

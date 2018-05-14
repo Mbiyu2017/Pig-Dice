@@ -35,7 +35,8 @@ $(document).ready(function(){
 })
 
   $(".hold-score1").click(function(){
-    $(".score1").text();
+    firstPlayer.realscore = firstPlayer.newscore;
+    $(".player-score1").text(firstPlayer.realscore);
   });
 
 

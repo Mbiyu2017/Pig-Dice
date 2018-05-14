@@ -49,6 +49,9 @@ $(document).ready(function(){
     $(".roll-dice1").hide();
     $(".roll-dice2").show();
     alert("Player 2's turn")
+    if (firstPlayer.realscore >= 100){
+      alert("YEEE! Player 1 has won the game!")
+    }
   });
 
 
@@ -64,7 +67,6 @@ $(document).ready(function(){
         $(".roll-dice1").show();
         alert("Its player 1's turn to roll the dice!");
       }
-
   })
 
     $(".hold-score2").click(function(){
@@ -75,6 +77,9 @@ $(document).ready(function(){
       $(".roll-dice2").hide();
       $(".roll-dice1").show();
       alert("Player 1's turn")
+      if(secondPlayer.realscore >=100 ){
+        alert("YEEE! Player 2 Won the Game")
+      }
     });
 
 

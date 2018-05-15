@@ -1,0 +1,47 @@
+# PIG DICE GAME
+
+#### This is a game of rolling dice that has engages two players who roll a dice to compete against each other , 14/05/2018
+
+#### By **Mbiyu Ben**
+
+## Description
+The application allows two players to rival while playing a dice game.
+The player who scores 100 points first wins the game.
+The player rolls the dice and adds his score according to the number the dice rolled on.
+However, if the player rolls number 1, he will lose all the points in his current roll.
+A player can however hold his score before he rolls number 1 which makes him retain the points in the current roll.
+The player who scores 100 points first wins the game.
+After winning the game, the players can schoose to restart the game in order to play the game again.
+
+## Setup/Installation Requirements
+* The game has no major setup install or setup complications, just visit the link below to play.
+ https://mbiyu2017.github.io/Pig-Dice/
+
+## BEHAVIOUR DRIVEN DEVELOPMENT
+BEHAVIOUR                                                INPUT                            OUTPUT
+Game produces random whole numbersto number 6            roll-dice                         1 to 6
+Game stores genrated number to a separate space          4                                 6
+Game adds newly generated number to previous number      3 and 6                           9
+Player changes role when they hold number or roll 1      Player1                           Player 2 
+
+## Known Bugs
+Application has no known bugs till now. Only switching players and restart functionalities that will be improved on.
+
+## Technologies Used
+*html
+*css
+*bootstrap
+*Javascript.
+
+## Support and contact details
+Incase of improvements or bugs to fix in application, contact me via email @benedictmbiyuthangwa@gmail.com
+
+### License
+*OPEN SOURCE LICENSE*
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright (c) 2018 **Mbiyu Ben**
+  

@@ -8,5 +8,77 @@
   font-size: 55px;
 }
 .roll-dice2{
-  display: none;
+  background-color:#495806;
+  color: white;
+}
+.roll-dice2:hover{
+  box-shadow: 0 0 50px black;
+  color: white;}
+.roll-dice1{
+    background-color:#495806;
+    color: white;
+  }
+.roll-dice1:hover{
+    box-shadow: 0 0 50px black;
+    color: white;
+}
+.hold-score1{
+  background-color:#9CBD05;
+  color: white;
+}
+.hold-score1:hover{
+  box-shadow: 0 0 50px black;
+  color: white;
+}
+.hold-score2{
+  background-color:#9CBD05;
+  color: white;
+}
+.hold-score2:hover{
+  box-shadow: 0 0 50px black;
+  color: white;
+}
+.jumbotron{
+  background-image: url("../img/dice2.jpg");
+  background-size:cover;
+  color:white;
+}
+.container-fluid{
+  background-image: url("../img/dice.jpg");
+  background-size:cover;
+}
+.row{
+  height: 280px;
+}
+.player-score1{
+  font-size: 50px;
+}
+.player-score2{
+  font-size: 50px;
+}
+.avatars{
+  height: 100px;
+  width: 90px;
+}
+.well{
+  margin-top: 50px;
+  box-shadow: 0 0 50px black;
+  padding:0 15px 0 15px;
+}
+.panel{
+  margin-top: 50px;
+  box-shadow: 0 0 50px #F9B267  ;
+  padding:0 15px 0 15px;
+}
+.score1{
+  font-size: 30px;
+}
+.score2{
+  font-size: 30px;
+}
+.currscore1{
+  font-size: 30px;
+}
+.currscore2{
+  font-size: 30px;
 }
